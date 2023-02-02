@@ -6,6 +6,7 @@ import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import FAQ from "@/components/FAQ";
 import Reviews from "@/components/Reviews";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -21,9 +22,10 @@ export default function Home() {
         <Hero></Hero>
         <Features />
         <Features imageSide="right" />
-        <CallToAction />
+        <Services />
         <Reviews />
         <FAQ />
+        <CallToAction />
         <Footer />
       </main>
     </>
