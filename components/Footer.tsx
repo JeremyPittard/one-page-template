@@ -141,7 +141,15 @@ const Footer = () => {
         direction={{ base: "column", md: "row" }}
       >
         <Text>&copy; copyright {year}</Text>
-        <Link href="jpittard.net" target={"_blank"}>
+        <Link
+          href="jpittard.net"
+          target={"_blank"}
+          lineHeight="inherit"
+          _hover={{
+            textDecoration: "none",
+            color: useColorModeValue("blue.500", "blue.500"),
+          }}
+        >
           made by this guy.
         </Link>
       </Stack>
