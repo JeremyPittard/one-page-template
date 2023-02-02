@@ -49,8 +49,8 @@ const Features = (props: FeaturesProps) => {
           </chakra.h1>
           <Box>
             <Content>
-              Building products is hard. We've built our fair share and we've
-              noticed the problems you always run into.
+              Building products is hard. We&apos;ve built our fair share and
+              we&apos;ve noticed the problems you always run into.
             </Content>
             <Content mt={4}>
               TemplatesKart provides the best ChakraUI templates. Now you can
@@ -58,8 +58,8 @@ const Features = (props: FeaturesProps) => {
             </Content>
             <Content mt={4}>
               You want to build a product and we want to help you. Building
-              products has changed our lives in ways we couldn't imagine and we
-              want to help you achieve that success too.
+              products has changed our lives in ways we couldn&apos;t imagine
+              and we want to help you achieve that success too.
             </Content>
           </Box>
         </Stack>
