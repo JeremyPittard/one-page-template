@@ -5,9 +5,6 @@ import {
   Button,
   Text,
   Link,
-  Menu,
-  MenuButton,
-  MenuList,
   MenuItem,
   Stack,
   Icon,
@@ -129,29 +126,6 @@ const NavLink = ({ name, path, onClose }: NavLinkProps) => {
       onClick={() => onClose()}
     >
       {name}
-    </Link>
-  );
-};
-
-// Dropdown MenuLink Component
-interface MenuLinkProps {
-  name: string;
-  path: string;
-  onClose: () => void;
-}
-
-const MenuLink = ({ name, path, onClose }: MenuLinkProps) => {
-  return (
-    <Link href={path} onClick={() => onClose()}>
-      <MenuItem
-        bg={useColorModeValue("white", "white")}
-        _hover={{
-          color: "blue.400",
-          bg: useColorModeValue("gray.200", "gray.200"),
-        }}
-      >
-        <Text>{name}</Text>
-      </MenuItem>
     </Link>
   );
 };

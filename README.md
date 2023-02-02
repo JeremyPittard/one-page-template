@@ -18,4 +18,8 @@ https://demo-one-page-template.vercel.app/
 [ ] separate data into it's own files to clean up the markup  
 [ ] on scroll animations
 [ ] build the hybrid charkra/next link  
-[ ] create a better blank theme and apply through template for ease later
+[ ] create a better blank theme and apply through template for ease later  
+[x] Hover styles in header/footer to match  
+[ ] sort out colours/hover styles in CTA near footer  
+[ ] better dummy content  
+[ ] separate typings/interfaces to .d.ts files
