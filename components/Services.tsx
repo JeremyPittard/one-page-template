@@ -1,4 +1,3 @@
-import { SVGProps } from "react";
 import {
   Container,
   Box,
@@ -13,7 +12,7 @@ import {
 interface IFeature {
   heading: string;
   content: string;
-  icon: SVGProps<SVGElement>;
+  icon: React.ReactNode;
 }
 
 const serviceList: IFeature[] = [
@@ -86,7 +85,7 @@ const serviceList: IFeature[] = [
 ];
 
 const Services = () => {
-  let bg = useColorModeValue("gray.100", "gray.100");
+  const bg = useColorModeValue("gray.100", "gray.100");
   return (
     <Container maxW="6xl" p={{ base: 5, md: 10 }}>
       <chakra.h3 fontSize="4xl" fontWeight="bold" mb={20} textAlign="center">
