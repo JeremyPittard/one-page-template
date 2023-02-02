@@ -1,14 +1,4 @@
-import {
-  Box,
-  Button,
-  chakra,
-  Flex,
-  Heading,
-  IconButton,
-  Stack,
-  useColorModeValue,
-} from "@chakra-ui/react";
-import { AiOutlineMenu } from "react-icons/ai";
+import { Box, chakra, Flex, Heading, Stack } from "@chakra-ui/react";
 
 const Hero = () => {
   return (
@@ -16,7 +6,7 @@ const Hero = () => {
       <Box
         w="full"
         h="container.sm"
-        backgroundImage="url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)"
+        backgroundImage="url(./img/bg.jpg)"
         bgPos="center"
         bgSize="cover"
       >
@@ -25,7 +15,7 @@ const Hero = () => {
           pos="relative"
           justify="center"
           boxSize="full"
-          bg="blackAlpha.700"
+          bg="blackAlpha.500"
         >
           <Stack textAlign="center" alignItems="center" spacing={6}>
             <Heading
@@ -34,7 +24,8 @@ const Hero = () => {
               color="white"
               textTransform="uppercase"
             >
-              Build Your new <chakra.span color="blue.400">Saas</chakra.span>
+              Globex
+              <chakra.span color="blue.400">Corporation</chakra.span>
             </Heading>
           </Stack>
         </Flex>

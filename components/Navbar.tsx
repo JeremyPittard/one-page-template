@@ -18,7 +18,6 @@ import {
 // Here we have used react-icons package for the icons
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
-import { BiChevronDown } from "react-icons/bi";
 import { RiFlashlightFill } from "react-icons/ri";
 
 const navLinks = [
@@ -74,11 +73,11 @@ const Navbar = () => {
           colorScheme="blue"
           size="md"
           rounded="md"
-          href="#"
+          href="mailto:jeremy@jpittard.net"
           display={{ base: "none", md: "flex" }}
-          as="a"
+          as={Link}
         >
-          Sign in
+          Contact
         </Button>
         <IconButton
           size="md"

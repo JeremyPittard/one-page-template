@@ -71,7 +71,7 @@ const Features = (props: FeaturesProps) => {
 const Content = ({ children, ...props }: PropsWithChildren<TextProps>) => {
   return (
     <Text
-      fontSize="md"
+      fontSize="lg"
       textAlign="left"
       lineHeight="1.375"
       fontWeight="400"

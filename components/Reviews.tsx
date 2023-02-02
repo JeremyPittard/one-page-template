@@ -13,7 +13,7 @@ const Reviews = () => {
   return (
     <Container maxW="5xl" px={{ base: 5, md: 10 }} py={{ base: 5, md: 14 }}>
       <Heading
-        as="h3"
+        as="h2"
         size="lg"
         fontWeight="bold"
         textAlign="center"

@@ -31,10 +31,9 @@ const Card = ({ imageSrc, review, name, country }: CardProps) => {
       </Flex>
       <Text
         color={useColorModeValue("gray.700", "gray.400")}
-        fontSize="0.87rem"
+        fontSize="lg"
         textAlign="left"
         lineHeight="1.375"
-        fontWeight="300"
       >
         {review}
       </Text>

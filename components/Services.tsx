@@ -124,12 +124,9 @@ const Services = () => {
             <chakra.h3 fontWeight="semibold" fontSize="2xl" mt={6}>
               {service.heading}
             </chakra.h3>
-            <Text fontSize="md" mt={4}>
+            <Text fontSize="lg" mt={4} textAlign="left" mx="auto" px="4">
               {service.content}
             </Text>
-            <Link href="#" mt={4} fontSize="sm" color="blue.400">
-              Learn more →
-            </Link>
           </Box>
         ))}
       </SimpleGrid>

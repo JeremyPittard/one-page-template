@@ -29,10 +29,10 @@ const Banner = () => {
       p={{ base: 8, md: 16 }}
     >
       <Box>
-        <chakra.h1 fontSize="4xl" lineHeight={1.2} fontWeight="bold">
+        <chakra.h2 fontSize="4xl" lineHeight={1.2} fontWeight="bold">
           Ready to get started?
-        </chakra.h1>
-        <chakra.h2
+        </chakra.h2>
+        <chakra.h3
           fontSize="2xl"
           lineHeight={1.2}
           fontWeight="bold"
@@ -40,7 +40,7 @@ const Banner = () => {
           bgClip="text"
         >
           Get in touch or create an account.
-        </chakra.h2>
+        </chakra.h3>
       </Box>
       <Stack
         direction={{ base: "column", sm: "row" }}
