@@ -1,33 +1,32 @@
-import { extendTheme, type ThemeConfig } from "@chakra-ui/react";
+import {
+  extendTheme,
+  StyleFunctionProps,
+  type ThemeConfig,
+} from "@chakra-ui/react";
 import { Atkinson_Hyperlegible } from "@next/font/google";
-import { mode } from '@chakra-ui/theme-tools'
-
-
+import { mode } from "@chakra-ui/theme-tools";
 
 const atkinson = Atkinson_Hyperlegible({ weight: "400", subsets: ["latin"] });
 
-// swatches can be generated here 
+// swatches can be generated here
 // https://smart-swatch.netlify.app/
 
 const styles = {
   global: (props: ThemeConfig) => ({
     body: {
-      color: mode('gray.800', 'gray.800')(props),
-      bg: mode('white', 'white')(props),
+      color: mode("gray.800", "gray.800")(props),
+      bg: mode("white", "white")(props),
       // lineHeight: 'base',
     },
-    '*::placeholder': {
-      color: mode('gray.400', 'gray.400')(props),
+    "*::placeholder": {
+      color: mode("gray.400", "gray.400")(props),
     },
-    '*, *::before, &::after': {
-      borderColor: mode('gray.200', 'gray.200')(props),
+    "*, *::before, &::after": {
+      borderColor: mode("gray.200", "gray.200")(props),
       // wordWrap: 'break-word',
     },
   }),
-}
-
-
-
+};
 const theme: ThemeConfig = extendTheme({
   useSystemColorMode: true,
   colors: {
@@ -48,7 +47,7 @@ const theme: ThemeConfig = extendTheme({
     heading: atkinson.style.fontFamily,
     body: atkinson.style.fontFamily,
   },
-  styles
+  styles,
 });
 
 export default theme;

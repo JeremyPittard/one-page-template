@@ -36,13 +36,6 @@ const Hero = () => {
             >
               Build Your new <chakra.span color="blue.400">Saas</chakra.span>
             </Heading>
-            <Button
-              colorScheme="brand"
-              textTransform="uppercase"
-              w="fit-content"
-            >
-              Start project
-            </Button>
           </Stack>
         </Flex>
       </Box>
